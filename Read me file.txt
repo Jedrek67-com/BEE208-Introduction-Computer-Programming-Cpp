@@ -1,0 +1,88 @@
+# C++ Programming Assignment 1
+
+##  Course Information
+- **Course**: BEE 208 - Introduction to Programming Using C++
+- **Assignment**: Assignment 1
+- **Academic Year**: 2026
+- **Lecturer**: Douglas Ayitey
+- **Faculty**: Engineering (Electrical/Electronic Engineering)
+
+---
+
+## ?? Table of Contents
+1. [Overview](#-overview)
+2. [Programs List](#-programs-list)
+3. [How to Compile & Run](#-how-to-compile--run)
+4. [Sample Outputs](#-sample-outputs)
+5. [Concepts Covered](#-concepts-covered)
+6. [Error Handling](#-error-handling)
+7. [Engineering Applications](#-engineering-applications)
+8. [Student Reflection](#-student-reflection)
+9. [Submission Details](#-submission-details)
+10. [Academic Integrity](#-academic-integrity)
+
+---
+
+## ?? Overview
+
+This repository contains **19 C++ programs** that demonstrate fundamental programming concepts including:
+- Basic arithmetic operations
+- Conditional statements and logic
+- Bitwise operations
+- Type conversions
+- String manipulation
+- Operator usage (arithmetic, logical, relational, bitwise)
+
+Each program is designed to solve specific problems and includes proper input validation, error handling, and clear output formatting.
+
+---
+
+## ?? Programs List
+
+### ?? Basic Operations (Programs 1-8)
+| # | Program | Description | Key Concepts |
+|---|---------|-------------|--------------|
+| 1 | `01_arithmetic_operations.cpp` | Calculates sum, difference, product, quotient | `+`, `-`, `*`, `/` operators |
+| 2 | `02_circle_area.cpp` | Calculates area of a circle | `M_PI`, `pow()`, `cmath` |
+| 3 | `03_equality_check.cpp` | Checks if three integers are equal | `==`, `&&` operators |
+| 4 | `04_string_comparison.cpp` | Compares string with "hello" | `==` with strings |
+| 5 | `05_greater_comparison.cpp` | Compares two integers | `>` operator |
+| 6 | `06_uppercase_check.cpp` | Checks if character is uppercase | `isupper()`, `&&` operator |
+| 7 | `07_character_search.cpp` | Finds 'a' in string | `find()`, `string::npos` |
+| 8 | `08_odd_even_check.cpp` | Determines odd/even number | `%` (modulus) operator |
+
+### ?? Operators & Conditionals (Programs 9-16)
+| # | Program | Description | Key Concepts |
+|---|---------|-------------|--------------|
+| 9 | `09_assignment_vs_equality.cpp` | Demonstrates `=` vs `==` | Assignment, Equality operators |
+| 10 | `10_ternary_operator.cpp` | Finds larger of two integers | `? :` ternary operator |
+| 11 | `11_increment_decrement.cpp` | Demonstrates `++` and `--` | Increment, Decrement operators |
+| 12 | `12_odd_divisible_by_3.cpp` | Checks odd AND divisible by 3 | `&&` logical operator |
+| 13 | `13_xor_swap.cpp` | Swaps variables using XOR | `^` bitwise XOR |
+| 14 | `14_shift_operators.cpp` | Demonstrates `<<` and `>>` | Left shift, Right shift |
+| 15 | `15_conditional_operator_float.cpp` | Larger of two floats | `? :` with floats |
+| 16 | `16_bitwise_logical_not.cpp` | Demonstrates `~` and `!` | Bitwise NOT, Logical NOT |
+
+### ?? Bitwise Operations & Conversions (Programs 17-19)
+| # | Program | Description | Key Concepts |
+|---|---------|-------------|--------------|
+| 17 | `17_power_of_2_check.cpp` | Checks if number is power of 2 | `&` bitwise AND |
+| 18 | `18_binary_to_decimal.cpp` | Converts binary to decimal | Loops, `pow()` |
+| 19 | `19_binary_converter.cpp` | Binary ? Decimal/Hex/Octal | Custom conversion functions |
+
+---
+
+## ??? How to Compile & Run
+
+### Prerequisites
+- C++ Compiler (g++, clang++, or MSVC)
+- C++11 or later
+
+### Compilation
+```bash
+# Compile a specific program
+g++ -std=c++11 01_arithmetic_operations.cpp -o program
+
+# Compile all programs (Linux/Mac)
+{file%.cpp}"
+done
